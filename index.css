@@ -1,0 +1,18 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: lightskyblue;
+}
+
+.box1,
+.box2,
+.box3{
+    background-color: wheat;
+    height: 30rem;
+    width: 20%;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
