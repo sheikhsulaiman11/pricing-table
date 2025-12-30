@@ -8,11 +8,21 @@ body{
 .box1,
 .box2,
 .box3{
-    background-color: wheat;
-    height: 30rem;
-    width: 20%;
+    background-color: whitesmoke;
+    height: 80vh;
+    width: 40vh;
     margin: 20px;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.catogory{
+    font-size: 20px;
+    font-weight: bold;
+    color: grey;
+}
+.amount{
+    font-size: 30px;
 }
