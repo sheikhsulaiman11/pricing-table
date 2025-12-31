@@ -16,6 +16,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    padding: 15px;
 }
 
 .catogory{
@@ -25,4 +26,10 @@ body{
 }
 .amount{
     font-size: 30px;
+}
+
+button{
+    height: 8vh;
+    width: 20vh;
+    background-color: lightblue;
 }
