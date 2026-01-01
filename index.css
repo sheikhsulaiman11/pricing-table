@@ -2,21 +2,28 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: lightskyblue;
+    background-color: #2563EB;
 }
 
 .box1,
 .box2,
 .box3{
-    background-color: whitesmoke;
-    height: 80vh;
-    width: 40vh;
+    background-color: #FFFFFF;
+    height: 70vh;
+    width: 35vh;
     margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 15px;
+    transition: transform 0.3s ease;
+    border-radius: 20px;
+}
+.box1:hover,
+.box2:hover,
+.box3:hover{
+     transform: scale(1.07);
 }
 
 .catogory{
@@ -24,6 +31,13 @@ body{
     font-weight: bold;
     color: grey;
 }
+.price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
 .amount{
     font-size: 30px;
 }
@@ -31,5 +45,23 @@ body{
 button{
     height: 8vh;
     width: 20vh;
-    background-color: lightblue;
+    background-color :#2563EB;
+    border-radius: 999px;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+button:hover{
+    background-color: rgb(75, 75, 175);
+    transform: scale(1.07);
+}
+ul{
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+li{
+    margin-bottom: 8px;
 }
